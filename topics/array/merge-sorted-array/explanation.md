@@ -16,7 +16,7 @@ Loop while `j >= 0` (nums2 not exhausted):
 - else: place `nums2[j]` at `k`, decrement j
 - decrement k each iteration
 
-Loop stops once `j < 0` — remaining nums1[:i+1] already in correct place, no copy needed.
+Loop stops once `j < 0` — remaining nums1[i+1] already in correct place, no copy needed.
 
 ## Complexity
 Time O(m+n), space O(1).
